@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 120rem;
+}
+article {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-left: 7rem;
+}
+.college-logo {
+  width: 50rem;
+  height: 42rem;
+  margin: -10rem 34rem;
+}
+header h1 {
+  text-align: center;
+  font-size: 5.2rem;
+  margin: 10rem 0;
+}
+h1 {
+  text-align: center;
+  font-size: 5.2rem;
+  margin: 5rem 0;
+}
+.student-btn {
+  display: flex;
+  flex-direction: column;
+}
+.student-logo {
+  width: 30rem;
+  height: 25rem;
+  margin-right: 1rem;
+}
+.student-window {
+  border: 1px solid #000;
+  overflow: hidden;
+  width: 31rem;
+  box-shadow: 0 3rem 5rem #000;
+  border-radius: 3rem;
+}
+.student-btn {
+  margin-top: 2rem;
+  font-size: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+.hidden {
+  display: none;
+}
+.student-btn {
+  padding: 3rem;
+  border: none;
+  border-radius: 5%;
+  background-color: #ced4da;
+  font-weight: bold;
+  margin-right: 5rem;
+}
+.student-btn:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 125%;
+  height: 125%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(14px);
+  z-index: 3;
+}
+.table {
+  position: absolute;
+  font-size: 5rem;
+  transform: translate(0rem, -8rem);
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  width: 80rem;
+  padding: 4rem;
+  font-weight: bold;
+}
+.tables {
+  list-style: none;
+}
+.link:visited,
+.link:link {
+  color: #000;
+  text-decoration: none;
+}
+.link:active,
+.link:hover {
+  color: #495057;
+  text-decoration: none;
+}
+.close {
+  width: 5rem;
+  height: 5rem;
+  color: #000;
+  font-weight: bold;
+  position: absolute;
+  transform: translateX(66rem);
+}
+.close:hover {
+  color: #495057;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.relation {
+  list-style: square;
+  font-size: 3.2rem;
+}
+.secondary-heading {
+  font-size: 4.8rem;
+  margin-bottom: 4rem;
+}
+.relationships {
+  background-color: #ced4da;
+  padding: 4rem;
+  border-radius: 10%;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.628);
+}
+/* Tables */
+.table1 {
+  font-size: 3rem;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.table1,
+th,
+td {
+  border: 1px solid;
+}
+
+th,
+td {
+  text-align: center;
+}
+th {
+  padding: 3rem;
+}
